@@ -2,6 +2,16 @@
   color: black;
 }
 
+.content {
+  padding-left: 18px;
+  opacity: 0.65;
+}
+
+.active .content {
+  padding-left: 0;
+  opacity: 1;
+}
+
 a.active {
   display: flex;
   justify-content: flex-start;
@@ -10,6 +20,8 @@ a.active {
 
 a.active:before {
   content: '>';
-  font-size: 20px;
+  color: dodgerblue;
+  font-size: 16px;
+  width: 8px;
   margin-right: 10px;
 }
