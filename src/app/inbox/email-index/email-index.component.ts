@@ -17,3 +17,6 @@ export class EmailIndexComponent implements OnInit {
     });
   }
 }
+
+// test email addy
+// molly@angular-email.com
