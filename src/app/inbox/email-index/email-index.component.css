@@ -3,6 +3,7 @@
 }
 
 .content {
+  width: 90%;
   padding-left: 18px;
   opacity: 0.65;
 }
@@ -24,4 +25,11 @@ a.active:before {
   font-size: 16px;
   width: 8px;
   margin-right: 10px;
+}
+
+.trim {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 100%;
 }
